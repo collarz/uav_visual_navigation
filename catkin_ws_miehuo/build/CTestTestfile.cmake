@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/tju/catkin_ws_miehuo/src
+# Build directory: /home/tju/catkin_ws_miehuo/build
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+subdirs("gtest")
+subdirs("realsense-ros/realsense2_description")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/quadrotor_msgs")
+subdirs("VINS-Fusion/camera_models")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/cmake_utils")
+subdirs("VINS-Fusion/global_fusion")
+subdirs("VINS-Fusion/loop_fusion")
+subdirs("ego-planner-swarm/src/uav_simulator/map_generator")
+subdirs("ego-planner-swarm/src/planner/plan_env")
+subdirs("ego-planner-swarm/src/planner/path_searching")
+subdirs("ego-planner-swarm/src/uav_simulator/fake_drone")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/pose_utils")
+subdirs("test")
+subdirs("ddynamic_reconfigure")
+subdirs("darknet_ros/darknet_ros_msgs")
+subdirs("ego-planner-swarm/src/planner/drone_detect")
+subdirs("darknet_ros/darknet_ros")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/odom_visualization")
+subdirs("ego-planner-swarm/src/uav_simulator/local_sensing")
+subdirs("ego-planner-swarm/src/uav_simulator/mockamap")
+subdirs("realsense-ros/realsense2_camera")
+subdirs("ego-planner-swarm/src/uav_simulator/so3_control")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/multi_map_server")
+subdirs("ego-planner-swarm/src/planner/traj_utils")
+subdirs("ego-planner-swarm/src/planner/bspline_opt")
+subdirs("ego-planner-swarm/src/planner/plan_manage")
+subdirs("ego-planner-swarm/src/planner/rosmsg_tcp_bridge")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/uav_utils")
+subdirs("ego-planner-swarm/src/uav_simulator/so3_quadrotor_simulator")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/rviz_plugins")
+subdirs("VINS-Fusion/vins_estimator")
+subdirs("ego-planner-swarm/src/uav_simulator/Utils/waypoint_generator")

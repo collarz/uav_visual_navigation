@@ -1,0 +1,6 @@
+<launch>
+    <!--cd ~/catkin_ws; rosrun test goal.py iris 0  -->
+    <node pkg = "test" name = "pub_goal_iris_0" type = "goal.py" args = "iris_0"/>
+    <!-- cd ~/catkin_ws; rosrun test yolo_interface.py iris 0 -->
+    <node pkg = "test" name = "yolo_interface" type = "yolo_interface.py" args = "iris 0"/>
+</launch>

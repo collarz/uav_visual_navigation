@@ -1,0 +1,11 @@
+yolo_model:
+
+  config_file:
+    name: fire.cfg
+  weight_file:
+    name: fire.weights
+  threshold:
+    value: 0.4
+  detection_classes:
+    names:
+      - fire

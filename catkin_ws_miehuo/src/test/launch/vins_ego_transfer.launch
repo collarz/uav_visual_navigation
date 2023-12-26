@@ -1,0 +1,6 @@
+<launch>
+    <!-- cd ~/XTDrone/sensing/slam/vio; python multi_vins_transfer.py iris 3  -->
+    <node pkg = "test" name = "pub_goal_iris_0" type = "goal.py" args = "iris_0"/>
+    <!-- cd ~/XTDrone/motion_planning/3d; python2.7 ego_swarm_transfer.py iris 3 -->
+    <node pkg = "test" name = "yolo_interface" type = "yolo_interface.py" args = "iris 0"/>
+</launch>
