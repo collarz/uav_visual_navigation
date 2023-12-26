@@ -5,7 +5,7 @@
 
 ```
 cd ~
-git clone https://gitee.com/collarz/uav_visual_navigation.git
+git clone https://github.com/collarz/uav_visual_navigation.git
 mv uav_visual_navigation/catkin_miehuo .
 rm -rf uav_visual_navigation
 ```
